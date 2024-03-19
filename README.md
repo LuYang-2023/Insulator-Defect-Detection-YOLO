@@ -18,7 +18,7 @@ The full data set will be published later
 
 
 ### Comparison Experiment with Mainstream Lightweight Object Detection Algorithms
-![Comparison of mAP(0.5) with Different Attention Mechanisms：](各模型对比图.png)
+![](各模型对比图.png)
 
 ### Edge Platform Deployment
 
