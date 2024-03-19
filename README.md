@@ -6,3 +6,10 @@
 ## Dataset
 The full data set will be published later
 
+## Comparative Experiments with Mainstream Attention Mechanisms
+
+![Experimental procedure：](.png)
+
+
+## Comparison Experiment with Mainstream Lightweight Object Detection Algorithms
+
