@@ -7,9 +7,9 @@
 The full data set will be published later
 
 ## Comparative Experiments with Mainstream Attention Mechanisms
-
-![Experimental procedure：](.png)
+![Comparison of mAP(0.5) with Different Attention Mechanisms：](各模型对比图.png)
 
 
 ## Comparison Experiment with Mainstream Lightweight Object Detection Algorithms
+![Comparison of mAP(0.5) with Different Attention Mechanisms：](各模型对比图.png)
 
