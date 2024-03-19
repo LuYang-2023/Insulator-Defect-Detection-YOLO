@@ -29,5 +29,8 @@ The full data set will be published later
 ## Insulator defect detection results
 ![](Detection_Result_Figures.png)
 
+## Author's Contact
+Email：ly13063414159@163.com
+
 
 
