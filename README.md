@@ -10,20 +10,20 @@ The structural diagram and rationale of the LCSA attention mechanism will be pub
 
 ## Dataset
 The full data set will be published later
-### Example image of ID-2024
+1.**Example image of ID-2024**
 ![](Insulator_Dataset_Example_Images.png)
 
 
 ## Experiment
 
-### Comparative Experiments with Mainstream Attention Mechanisms
+1.**Comparative Experiments with Mainstream Attention Mechanisms**
 ![](Different_Attention_Mechanisms.png)
 
 
-### Comparison Experiment with Mainstream Lightweight Object Detection Algorithms
+2.**Comparison Experiment with Mainstream Lightweight Object Detection Algorithms**
 ![](Lightweight_Detection_Models.png)
 
-### Edge Platform Deployment
+3.**Edge Platform Deployment**
 ![](Jetson_TX2_NX_EX.png)
 
 ## Insulator defect detection results
