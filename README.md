@@ -14,7 +14,7 @@ The full data set will be published later
 ## Experiment
 
 ### Comparative Experiments with Mainstream Attention Mechanisms
-![](各模型对比图.png)
+![](Different_Attention_Mechanisms.png)
 
 
 ### Comparison Experiment with Mainstream Lightweight Object Detection Algorithms
