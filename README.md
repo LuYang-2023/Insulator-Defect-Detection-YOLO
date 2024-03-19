@@ -22,6 +22,7 @@ The full data set will be published later
 ![](Lightweight_Detection_Models.png)
 
 ### Edge Platform Deployment
+![](Jetson_TX2_NX_EX.png)
 
 ## Insulator defect detection results
 
