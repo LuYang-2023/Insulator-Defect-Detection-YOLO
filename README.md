@@ -9,13 +9,13 @@
 ## Dataset
 The full data set will be published later
 ### Example image of ID-2024
-![](Insulator Dataset Example Images.png)
+
 
 
 ## Experiment
 
 ### Comparative Experiments with Mainstream Attention Mechanisms
-![](Different_Attention_Mechanisms.png)
+![](Insulator Dataset Example Images.png)
 
 
 ### Comparison Experiment with Mainstream Lightweight Object Detection Algorithms
