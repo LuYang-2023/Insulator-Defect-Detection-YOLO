@@ -15,7 +15,7 @@ The full data set will be published later
 ## Experiment
 
 ### Comparative Experiments with Mainstream Attention Mechanisms
-![](Insulator Dataset Example Images.png)
+![](Different_Attention_Mechanisms.png)
 
 
 ### Comparison Experiment with Mainstream Lightweight Object Detection Algorithms
