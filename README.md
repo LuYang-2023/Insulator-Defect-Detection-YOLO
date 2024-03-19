@@ -25,6 +25,7 @@ The full data set will be published later
 ![](Jetson_TX2_NX_EX.png)
 
 ## Insulator defect detection results
+![](Detection_Result_Figures.png)
 
 
 
