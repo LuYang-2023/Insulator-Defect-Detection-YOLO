@@ -18,7 +18,7 @@ The full data set will be published later
 
 
 ### Comparison Experiment with Mainstream Lightweight Object Detection Algorithms
-![](各模型对比图.png)
+![](Lightweight_Detection_Models.png)
 
 ### Edge Platform Deployment
 
