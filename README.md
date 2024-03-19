@@ -9,7 +9,7 @@
 ## Dataset
 The full data set will be published later
 ### Example image of ID-2024
-
+![](Lightweight_Detection_Models.png)
 
 
 ## Experiment
