@@ -38,7 +38,7 @@ The full data set will be published later.
 ## 5 Insulator defect detection results
 
 
-![](Detection_Result_Figures.png)
+![](IDD-YOLO_detection_results.png)
 
 ## Author's Contact
 Email：ly13063414159@163.com
