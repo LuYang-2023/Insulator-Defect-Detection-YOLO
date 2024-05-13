@@ -1,4 +1,4 @@
-# YOGL: A Lightweight Insulator Defect Detection Network Based on UAV Remote Sensing Images
+# IDD-YOLO: A Lightweight Insulator Defect Detection Network Based on Deep Learning
 
 **Dear reviewers: The source code and pre-trained model weights will be available upon the acceptance of the paper.   Feel free to raise your questions or difficulties in the implementation.**
 ## <div align="left">Quick Start Examples</div>
