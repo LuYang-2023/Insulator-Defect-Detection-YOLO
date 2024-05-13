@@ -37,7 +37,7 @@ python val.py --data data/mydata.yaml --weights best.pt --task test
 </details>
 
 
-## 1.YOGL architecture diagram
+## 1.IDD-YOLO architecture diagram
 The structural diagram of the YOGL target detection model will be published after the acceptance of the paper.
 
 ## 2.LCSA attention mechanism
