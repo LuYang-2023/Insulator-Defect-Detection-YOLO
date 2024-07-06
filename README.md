@@ -1,4 +1,4 @@
-This code originates from a paper currently being submitted to the Remote Sensing journal, with the manuscript number remotesensing-3032313. Upon publication, the code will be made publicly available. During the review process, if reviewers wish to examine the code, they are welcome to contact me via email, and I will provide the necessary access permissions.
+This code originates from a paper currently being submitted to the ***Remote Sensing*** journal, with the manuscript number ***remotesensing-3032313***. Upon publication, the code will be made publicly available. **During the review process, if reviewers wish to examine the code, they are welcome to contact me via email, and I will provide the necessary access permissions.**
 
 
 
