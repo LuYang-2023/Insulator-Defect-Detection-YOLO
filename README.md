@@ -1,3 +1,7 @@
+This code originates from a paper currently being submitted to the Remote Sensing journal, with the manuscript number remotesensing-3032313. Upon publication, the code will be made publicly available. During the review process, if reviewers wish to examine the code, they are welcome to contact me via email, and I will provide the necessary access permissions.
+
+
+
 ## 1.IDD-YOLO architecture diagram
 The structural diagram of the YOGL target detection model will be published after the acceptance of the paper.
 
