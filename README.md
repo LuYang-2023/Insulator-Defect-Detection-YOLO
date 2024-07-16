@@ -45,7 +45,7 @@ The full data set will be published later.
 ![](IDD-YOLO_detection_results.png)
 
 ## Author's Contact
-Email：ly13063414159@163.com
+Email：yj20220275@stud.tjut.edu.cn
 
 
 
