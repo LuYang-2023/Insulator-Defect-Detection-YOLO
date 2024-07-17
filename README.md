@@ -1,4 +1,4 @@
-This code originates from a paper currently being submitted to the ***Remote Sensing*** journal, with the manuscript number ***remotesensing-3128054***. Upon publication, the code will be made publicly available. 
+This code originates from a paper currently being submitted to the ***Drones*** journal, with the manuscript number ***drones-3136614***. Upon publication, the code will be made publicly available. 
 
 
 
