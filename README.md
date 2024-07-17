@@ -23,18 +23,7 @@ The full data set will be published later.
 ## 4.Experiment
 
 
-**4.1 Comparative Experiments with Mainstream Attention Mechanisms**
-
-
-![](Different_Attention_Mechanisms.png)
-
-
-**4.2 Comparison Experiment with Mainstream Lightweight Object Detection Algorithms**
-
-
-![](Lightweight_Detection_Models2.png)
-
-**4.3 Edge Platform Deployment**
+**4.1 Edge Platform Deployment**
 
 
 ![](Jetson_TX2_NX_EX.png)
