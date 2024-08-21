@@ -7,7 +7,7 @@ This code originates from a paper currently being submitted to the ***Drones*** 
 
 
 ## 1.IDD-YOLO architecture diagram
-The structural diagram of the YOGL target detection model will be published after the acceptance of the paper.
+The structural diagram of the IDD-YOLO target detection model will be published after the acceptance of the paper.
 
 ## 2.LCSA attention mechanism
 The structural diagram and rationale of the LCSA attention mechanism will be published after the acceptance of the paper.
