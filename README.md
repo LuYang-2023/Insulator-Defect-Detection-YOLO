@@ -1,9 +1,7 @@
-This code originates from a paper currently being submitted to the ***Drones*** journal, with the manuscript number ***drones-3136614***. Upon publication, the code will be made publicly available. 
+# A Lightweight Insulator Defect Detection Model Based on Drone Images
 
-
-
-**During the review process, if reviewers wish to examine the code, they are welcome to contact me via email, and I will provide the necessary access permissions.**
-
+## Introduction
+This is our PyTorch implementation of the paper "[`A Lightweight Insulator Defect Detection Model Based on Drone Images`](https://doi.org/10.3390/drones8090431)" published in ***Drones***.
 
 
 ## 1.IDD-YOLO architecture diagram
@@ -13,7 +11,7 @@ The structural diagram of the IDD-YOLO target detection model will be published 
 The structural diagram and rationale of the LCSA attention mechanism will be published after the acceptance of the paper.
 
 ## 3.Dataset
-The full data set will be published later.
+My dataset contains sensitive information from the Tianjin Power Grid Company, and I need to communicate with them first to confirm whether this data can be made public.
 
 
 **3.1 Example image of ID-2024**
