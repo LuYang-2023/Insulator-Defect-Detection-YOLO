@@ -64,6 +64,22 @@ My dataset contains sensitive information from the Tianjin Power Grid Company, a
     <img src="Jetson_TX2_NX_EX.png" width="1000" alt="Jetson_TX2_NX_EX">
 </div>
 
+### Citation
+If you use this code or article in your research, please cite it using the following BibTeX entry:
+
+```bibtex
+@article{lu2024lightweight,
+  title={A Lightweight Insulator Defect Detection Model Based on Drone Images},
+  author={Lu, Yang and Li, Dahua and Li, Dong and Li, Xuan and Gao, Qiang and Yu, Xiao},
+  journal={Drones},
+  volume={8},
+  number={9},
+  pages={431},
+  year={2024},
+  publisher={MDPI}
+}
+```
+
 
 ## Author's Contact
 Email：yj20220275@stud.tjut.edu.cn
