@@ -5,7 +5,9 @@ This is our PyTorch implementation of the paper "[`A Lightweight Insulator Defec
 
 
 ## 1.IDD-YOLO architecture diagram
-The structural diagram of the IDD-YOLO target detection model will be published after the acceptance of the paper.
+<div align="center">
+    <img src="IDD_YOLO.png" width="1000" alt="IDD-YOLO">
+</div>
 
 ## 2.LCSA attention mechanism
 
