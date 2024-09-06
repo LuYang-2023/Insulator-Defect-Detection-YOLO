@@ -60,14 +60,10 @@ My dataset contains sensitive information from the Tianjin Power Grid Company, a
 
 
 **4.1 Edge Platform Deployment**
+<div align="center">
+    <img src="Jetson_TX2_NX_EX.png" width="1000" alt="Jetson_TX2_NX_EX">
+</div>
 
-
-![](Jetson_TX2_NX_EX.png)
-
-## 5 Insulator defect detection results
-
-
-![](IDD-YOLO_detection_results.png)
 
 ## Author's Contact
 Email：yj20220275@stud.tjut.edu.cn
