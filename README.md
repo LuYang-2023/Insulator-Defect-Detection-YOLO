@@ -20,10 +20,6 @@ This is our PyTorch implementation of the paper "[`A Lightweight Insulator Defec
 My dataset contains sensitive information from the Tianjin Power Grid Company, and I need to communicate with them first to confirm whether this data can be made public.
 
 
-**3.1 Example image of ID-2024**
-![](Insulator_Dataset_Example_Images.png)
-
-
 ## 4.Experiment
 
 
