@@ -13,8 +13,8 @@ First, clone the project and configure the environment.
 [**Python>=3.7.0**](https://www.python.org/), [**PyTorch>=1.7**](https://pytorch.org/get-started/locally/).
 
 ```bash
-git clone https://github.com/LuYang-2023/Insulator-defect-detection.git  # clone
-cd Insulator-defect-detection
+git clone https://github.com/LuYang-2023/Insulator-Defect-Detection-YOLO.git  # clone
+cd Insulator-Defect-Detection-YOLO
 pip install -r requirements.txt  # install
 ```
 </details>
@@ -25,7 +25,7 @@ pip install -r requirements.txt  # install
 
 
 ```python
-python train.py --cfg models/LiteYOLO-ID.yaml --data data/mydata.yaml
+python train.py --cfg models/IDD-YOLO.yaml --data data/mydata.yaml
 ```
 </details>
 
