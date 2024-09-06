@@ -68,15 +68,17 @@ My dataset contains sensitive information from the Tianjin Power Grid Company, a
 If you use this code or article in your research, please cite it using the following BibTeX entry:
 
 ```bibtex
-@article{lu2024lightweight,
-  title={A Lightweight Insulator Defect Detection Model Based on Drone Images},
-  author={Lu, Yang and Li, Dahua and Li, Dong and Li, Xuan and Gao, Qiang and Yu, Xiao},
-  journal={Drones},
-  volume={8},
-  number={9},
-  pages={431},
-  year={2024},
-  publisher={MDPI}
+@Article{drones8090431,
+AUTHOR = {Lu, Yang and Li, Dahua and Li, Dong and Li, Xuan and Gao, Qiang and Yu, Xiao},
+TITLE = {A Lightweight Insulator Defect Detection Model Based on Drone Images},
+JOURNAL = {Drones},
+VOLUME = {8},
+YEAR = {2024},
+NUMBER = {9},
+ARTICLE-NUMBER = {431},
+URL = {https://www.mdpi.com/2504-446X/8/9/431},
+ISSN = {2504-446X},
+DOI = {10.3390/drones8090431}
 }
 ```
 
