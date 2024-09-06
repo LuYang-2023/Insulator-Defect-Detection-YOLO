@@ -1107,3 +1107,77 @@ class Classify(nn.Module):
         if isinstance(x, list):
             x = torch.cat(x, 1)
         return self.linear(self.drop(self.pool(self.conv(x)).flatten(1)))
+
+class ChannelAttention(nn.Module):
+    def __init__(self, c1, c2, k_size=3, gamma=2, b=1):  # k_size: Adaptive selection of kernel size
+        super(ChannelAttention, self).__init__()
+
+        self.gamma = gamma
+        self.b = b
+        t = int(abs(math.log(c1, 2) + self.b) / self.gamma)
+        k = t if t % 2 else t + 1
+
+        self.conv = nn.Conv1d(1, 1, kernel_size=k, padding=(k - 1) // 2, bias=False)
+        self.avg_pool = nn.AdaptiveAvgPool2d(1)
+        self.sigmoid = nn.Sigmoid()
+
+    def forward(self, x):
+        y = self.avg_pool(x)
+        y = self.conv(y.squeeze(-1).transpose(-1, -2)).transpose(-1, -2).unsqueeze(-1)
+        y = self.sigmoid(y)
+
+        return y.expand_as(x)
+
+
+class SpatialAttention(nn.Module):
+    def __init__(self, in_channels, out_channels):
+        super(SpatialAttention, self).__init__()
+        self.conv1 = nn.Conv2d(in_channels, 4, kernel_size=3, padding=1)
+        self.bn1 = nn.BatchNorm2d(4)
+        self.relu = nn.ReLU(inplace=True)
+        self.conv2 = nn.Conv2d(4, out_channels, kernel_size=3, padding=1)
+        self.bn2 = nn.BatchNorm2d(out_channels)
+        self.sigmoid = nn.Sigmoid()
+
+    def forward(self, x):
+        x = self.conv1(x)
+        x = self.bn1(x)
+        x = self.relu(x)
+        x = self.conv2(x)
+        x = self.bn2(x)
+        x = self.sigmoid(x)
+        return x
+    
+
+class LCSA(nn.Module):
+    def __init__(self, c1, c2):
+        super(LCSA, self).__init__()
+        self.channel_attention = ChannelAttention(c1, c2)
+        self.spatial_attention = SpatialAttention(c1, c2)
+
+    def forward(self, x):
+        out = self.channel_attention(x) * x
+        out = self.spatial_attention(out) * out
+        return out
+    
+
+class GhostBottleneck_LCSA(nn.Module):
+    # Ghost Bottleneck https://github.com/huawei-noah/ghostnet
+    def __init__(self, c1, c2, midc, k=5, s=1, use_se=False):  # ch_in, ch_mid, ch_out, kernel, stride, use_se
+        super().__init__()
+        assert s in [1, 2]
+        c_ = midc
+        self.conv = nn.Sequential(GhostConv(c1, c_, 1, 1),  # Expansion
+                                  Conv(c_, c_, 3, s=2, p=1, g=c_, act=False) if s == 2 else nn.Identity(),  # dw
+                                  # Squeeze-and-Excite
+                                  LCSA(c_, c_) if use_se else nn.Sequential(),
+                                  GhostConv(c_, c2, 1, 1, act=False))  # Squeeze pw-linear
+
+        self.shortcut = nn.Identity() if (c1 == c2 and s == 1) else \
+            nn.Sequential(Conv(c1, c1, 3, s=s, p=1, g=c1, act=False), \
+                          Conv(c1, c2, 1, 1, act=False))  # 避免stride=2时 通道数改变的情况
+
+    def forward(self, x):
+        # print(self.conv(x).shape)
+        # print(self.shortcut(x).shape)
+        return self.conv(x) + self.shortcut(x)
