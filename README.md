@@ -8,7 +8,11 @@ This is our PyTorch implementation of the paper "[`A Lightweight Insulator Defec
 The structural diagram of the IDD-YOLO target detection model will be published after the acceptance of the paper.
 
 ## 2.LCSA attention mechanism
-The structural diagram and rationale of the LCSA attention mechanism will be published after the acceptance of the paper.
+
+<div align="center">
+    <img src="LCSA_attention_mechanism.png" width="1000" alt="LCSA_attention_mechanism">
+</div>
+
 
 ## 3.Dataset
 My dataset contains sensitive information from the Tianjin Power Grid Company, and I need to communicate with them first to confirm whether this data can be made public.
