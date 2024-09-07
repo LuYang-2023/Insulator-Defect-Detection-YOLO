@@ -52,14 +52,12 @@ python val.py --data data/mydata.yaml --weights best.pt --task test
 </div>
 
 
-## 3.Dataset
-My dataset contains sensitive information from the Tianjin Power Grid Company, and I need to communicate with them first to confirm whether this data can be made public.
 
 
-## 4.Experiment
+## 3.Experiment
 
 
-**4.1 Edge Platform Deployment**
+**3.1 Edge Platform Deployment**
 <div align="center">
     <img src="Jetson_TX2_NX_EX.png" width="1000" alt="Jetson_TX2_NX_EX">
 </div>
