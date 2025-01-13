@@ -1,7 +1,7 @@
 # A Lightweight Insulator Defect Detection Model Based on Drone Images
 
 ## Dataset
-I will first provide links to Baidu.com discs for some of the datasets. More specific datasets involve confidential information from Tianjin Grid, and I need to discuss with them whether they can be made public. However, the datasets I provided are sufficient for code debugging and model training. The links to the datasets are below:
+***I will first provide links to Baidu.com discs for some of the datasets. More specific datasets involve confidential information from Tianjin Grid, and I need to discuss with them whether they can be made public. However, the datasets I provided are sufficient for code debugging and model training. The links to the datasets are below:***
 
 **Link:** https://pan.baidu.com/s/1inULMZcnibOsfjXvJQiFjQ
 
