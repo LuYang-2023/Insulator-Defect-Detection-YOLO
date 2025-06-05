@@ -7,6 +7,8 @@
 
 **Extraction code:** 8kdy
 
+**Google Drive download link：** https://drive.google.com/file/d/1QOFg5iCop9Jb9uAjiNelYvELOmUWGMs-/view?usp=drive_link
+
 
 ## Introduction
 This is our PyTorch implementation of the paper "[`A Lightweight Insulator Defect Detection Model Based on Drone Images`](https://doi.org/10.3390/drones8090431)" published in ***Drones***.
